@@ -15,7 +15,7 @@ function keepAlive() {
 function createBot() {
     const bot = mineflayer.createBot({
       host: 'Play.potionmc.xyz',
-      username: 'DgYtOnTop',
+      username: 'ParkourNinja34',
       password: 'haseeb',
     });
 
