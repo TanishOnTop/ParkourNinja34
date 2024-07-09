@@ -29,7 +29,9 @@ function createBot() {
      bot.chat('/server survival');
    }, 10000 );
     });
-
+setInterval(() => {
+        bot.chat('/server Survival');
+    }, 120000); 
     bot.on('chat', (username, message) => {
       if (username !== bot.username) {
         bot.chat(``);
